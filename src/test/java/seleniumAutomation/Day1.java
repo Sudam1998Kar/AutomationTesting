@@ -17,8 +17,15 @@ public class Day1 {
 		System.out.println("Login to application...");
 	}
 	
-	@Test(priority=3)
+	@Test(priority=4)
 	void logout()
+	
+	{
+		System.out.println("logout from application...");
+	}
+	
+	@Test(priority=3)
+	void Search()
 	
 	{
 		System.out.println("logout from application...");
